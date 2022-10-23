@@ -151,9 +151,7 @@ jobs:
           curl https://image.thum.io/get/width/300/crop/800/allowJPG/wait/20/noanimate/https://www.57blog.cn/ -o www.57blog.cn.jpg
           curl https://image.thum.io/get/width/300/crop/800/allowJPG/wait/20/noanimate/https://tenyding.cn/ -o tenyding.cn.jpg
           curl https://image.thum.io/get/width/300/crop/800/allowJPG/wait/20/noanimate/https://lisir.me/ -o lisir.me.jpg
-          curl https://image.thum.io/get/width/300/crop/800/allowJPG/wait/20/noanimate/https://blog.catrol.cn/ -o blog.catrol.cn.jpg
-          curl https://image.thum.io/get/width/300/crop/800/allowJPG/wait/20/noanimate/https://emoryhuang.cn/ -o emoryhuang.cn.jpg
-          
+          curl https://image.thum.io/get/width/300/crop/800/allowJPG/wait/20/noanimate/https://blog.catrol.cn/ -o blog.catrol.cn.jpg          
           
           curl https://purge.jsdelivr.net/gh/GX88/ScreenShot@gh-pages/*.*
       - name: Deploy
